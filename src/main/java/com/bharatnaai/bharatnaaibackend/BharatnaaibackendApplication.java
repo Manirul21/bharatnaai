@@ -8,6 +8,7 @@ public class BharatnaaibackendApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(BharatnaaibackendApplication.class, args);
+		System.out.print("fghjkl");
 	}
 
 }
