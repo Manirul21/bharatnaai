@@ -1,2 +1,10 @@
-package com.bharatnaai.bharatnaaibackend.UserDto;public class AuthResponse {
+package com.bharatnaai.bharatnaaibackend.UserDto;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter @Setter @AllArgsConstructor
+public class AuthResponse {
+    private String token;
 }
